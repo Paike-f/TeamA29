@@ -2,8 +2,15 @@
 
 
 /* CSS header */
-
-
+.carousel-item img{
+    width: 100%;
+    height: 600px;
+    
+}
+.navbar-brand img{
+    width: 247px;
+    height: 56px;
+}
 /* CSS Content */
 
 
