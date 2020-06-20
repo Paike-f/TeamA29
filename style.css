@@ -4,12 +4,39 @@
 /* CSS header */
 .carousel-item img{
     width: 100%;
-    height: 600px;
+    height: 550px;
     
 }
 .navbar-brand img{
-    width: 250px;
-    height: 60px;
+    width: 235px;
+    height: 55px;
+}
+.nav-link{
+    text-transform: uppercase;
+    margin-right: 20px;
+    font-style:inherit ;
+}
+.nav-item, .nav-link{
+    color:blue !important;
+}
+.order{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #4361ee;
+}
+.order h5{
+    color: white;
+}
+.row{
+    background-color: white;
+    border-radius: 5px;
+    
+}
+.carousel-inner h5{
+    color: yellow;
+    font-size: 48px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 /* CSS Content */
 
@@ -25,3 +52,9 @@
 
 
 /* CSS Media Phone */
+@media (max-width:670px) {
+    .carousel-item img{
+        width: 100%;
+        height: 200px;
+        
+    }
