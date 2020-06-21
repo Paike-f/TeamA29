@@ -42,7 +42,16 @@
 
 
 /* CSS profile */
-
+h2 {
+    font-size: 24px;
+    color: black
+}
+        
+p {
+    font-size: 14px;
+    color: #d3d3d3;
+}
+    
 
 /* CSS Footer */
 
