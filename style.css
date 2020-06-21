@@ -1,5 +1,11 @@
 /* Tulis code pada bagian2nya dan bila perlu beri komentar */
-
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
 
 /* CSS header */
 .carousel-item img{
