@@ -156,10 +156,40 @@ form, input, div {
 
 /* CSS Media Phone */
 @media (max-width:1000px) {
-  .content-bottom ul {
+
+  .content-mid li {
     width: 50%;
-    clear: left;
+    margin: auto;
+    position: relative;
+    padding: 0;
+    height: 300px;
+    text-align: center;
+    transition: all 0.5s;
 }
+  .content-mid ul {
+    position: center;
+    background-color: #B4DBF6;
+
+  }
+
+
+  .content-mid span {
+    font-size: 35px;
+    letter-spacing: 3px;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+    top: 130px;
+    left: 100px;
+  }
+
+  .p-content-bottom {
+    text-align: center;
+    width: 320px;
+    line-height: 1.6;
+    margin: 60px auto 30px auto;
+  }
 
 
 /* CSS Media Phone */
