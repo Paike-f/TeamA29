@@ -152,7 +152,12 @@ form, input, div {
 }
 
 /* CSS profile */
-
+    h2 {
+	color-font: black;
+}
+    p {
+	color-font: black;  
+}
 
 /* CSS Footer */
 
